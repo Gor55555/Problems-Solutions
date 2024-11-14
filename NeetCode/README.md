@@ -2,10 +2,10 @@
 
 ## Arrays & Hashing
 
-| Difficulty | Problems                         | Solutions                          |
--------------|----------------------------------|------------------------------------|
-| Easy       | [Contains Duplicate](https://neetcode.io/problems/duplicate-integer/) | [C++](link_here) |
-| Easy       | [Valid Anagram](link_here)                                            | [C++](link_here) |
-| Easy       | [Two Sum](link_here)                                                  | [C++](link_here) |
-| Medium     | [Group Anagrams](link_here)                                           | [C++](link_here) |
-| Medium     | [Top K Frequent Elements](link_here)                                  | [C++](link_here) |
+| Difficulty | Problems                         | Solutions                                  |
+-------------|----------------------------------|--------------------------------------------|
+| Easy       | [Contains Duplicate](https://neetcode.io/problems/duplicate-integer)          | [C++](https://github.com/Gor55555/Problems-Solutions/blob/main/NeetCode/Contains_Duplicate/Contains_Duplicate/main.cpp) |
+| Easy       | [Valid Anagram](https://neetcode.io/problems/is-anagram)                      | [C++](https://github.com/Gor55555/Problems-Solutions/blob/main/NeetCode/Valid_Anagram/Valid_Anagram/main.cpp) |
+| Easy       | [Two Sum](https://neetcode.io/problems/two-integer-sum)                       | [C++](https://github.com/Gor55555/Problems-Solutions/tree/main/NeetCode/Two_Sum/Two_Sum) |
+| Medium     | [Group Anagrams](https://neetcode.io/problems/anagram-groups)                 | [C++](https://github.com/Gor55555/Problems-Solutions/blob/main/NeetCode/Group_Anagrams/Group_Anagrams/main.cpp) |
+| Medium     | [Top K Frequent Elements](https://neetcode.io/problems/top-k-elements-in-list)| [C++](https://github.com/Gor55555/Problems-Solutions/tree/main/NeetCode/Top_K_Frequent_Elements/Top_K_Frequent_Elements) |

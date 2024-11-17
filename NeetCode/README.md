@@ -12,10 +12,10 @@
 
 ## Two Pointers
 
-| Difficulty | Problems                         | Solutions                                  |
--------------|----------------------------------|--------------------------------------------|
-| Easy       | [Valid Palindrome](https://neetcode.io/problems/duplicate-integer)            | [C++]() |
-| Medium     | [Two Sum II Input Array Is Sorted](https://neetcode.io/problems/is-anagram)   | [C++]() |
-| medium     | [3Sum ](https://neetcode.io/problems/two-integer-sum)                         | [C++]() |
-| Medium     | [Container With Most Water](https://neetcode.io/problems/anagram-groups)      | [C++]() |
-| Hard       | [Trapping Rain Water](https://neetcode.io/problems/top-k-elements-in-list)    | [C++]() |
+| Difficulty | Problems                         | Solutions                                        |
+-------------|----------------------------------|--------------------------------------------------|
+| Easy       | [Valid Palindrome](https://neetcode.io/problems/is-palindrome)                      | [C++]() |
+| Medium     | [Two Sum II Input Array Is Sorted](https://neetcode.io/problems/two-integer-sum-ii) | [C++]() |
+| medium     | [3Sum ](https://neetcode.io/problems/three-integer-sum)                             | [C++]() |
+| Medium     | [Container With Most Water](https://neetcode.io/problems/max-water-container)       | [C++]() |
+| Hard       | [Trapping Rain Water](https://neetcode.io/problems/trapping-rain-water)             | [C++]() |

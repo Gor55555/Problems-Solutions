@@ -2,44 +2,50 @@
 #include <iomanip>
 #include <string>
 
-bool ReverseString(std::string s)
-{
-	std::string newStr = "";
-	for (char c : s)
-	{
-		if (isalnum(c))
-		{
-			newStr += tolower(c);
-		}
-	}
-	return newStr == std::string(newStr.rbegin(), newStr.rend());
+bool ReverseString(std::string s)                                //Time complexity:  O(n)
+{                                                                //Space complexity: O(n)
+    std::string newStr = "";
+    for (char c : s)
+    {
+        if (isalnum(c))
+        {
+            newStr += tolower(c);
+        }
+    }
+    return newStr == std::string(newStr.rbegin(), newStr.rend());
 }
 
-bool alphaNum(char c)
-{
-    return (c >= 'A' && c <= 'Z' ||
-            c >= 'a' && c <= 'z' ||
-            c >= '0' && c <= '9');
-}
 
-bool TwoPointers(std::string s)
-{
+bool TwoPointers(std::string s)                                 //Time complexity:  O(n)
+{                                                               //Space complexity: O(1)
     int l = 0, r = s.length() - 1;
 
-    while (l < r) {
-        while (l < r && !alphaNum(s[l])) 
+    auto AlphaNum = [](char c)
+        {
+            return (c >= 'A' && c <= 'Z' ||
+                c >= 'a' && c <= 'z' ||
+                c >= '0' && c <= '9');
+        };
+
+
+
+    while (l < r) 
+    {
+        while (l < r && !AlphaNum(s[l]))
         {
             l++;
         }
-        while (r > l && !alphaNum(s[r])) 
+        while (r > l && !AlphaNum(s[r]))
         {
             r--;
         }
-        if (tolower(s[l]) != tolower(s[r])) 
+        if (tolower(s[l]) != tolower(s[r]))
         {
             return false;
         }
-        l++; r--;
+
+        l++;
+        r--;
     }
     return true;
 }

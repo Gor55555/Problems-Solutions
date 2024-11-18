@@ -53,10 +53,10 @@ bool TwoPointers(std::string s)                                 //Time complexit
 int main()
 {
 
-	std::string s;
-	std::cout << std::setw(15) << std::left << "Input: ";
-	std::getline(std::cin, s);
+    std::string s;
+    std::cout << std::setw(15) << std::left << "Input: ";
+    std::getline(std::cin, s);
 
-	std::cout << "\n" << std::setw(15) << std::left << "Output: " << (ReverseString(s) ? "True" : "False");
+    std::cout << "\n" << std::setw(15) << std::left << "Output: " << (ReverseString(s) ? "True" : "False");
     std::cout << "\n" << std::setw(15) << std::left << "Output: " << (TwoPointers(s) ? "True" : "False");
 }

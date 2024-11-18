@@ -1,4 +1,4 @@
-# Need Code
+s# Need Code
 
 ## Arrays & Hashing
 
@@ -15,7 +15,7 @@
 | Difficulty | Problems                         | Solutions                                        |
 -------------|----------------------------------|--------------------------------------------------|
 | Easy       | [Valid Palindrome](https://neetcode.io/problems/is-palindrome)                      | [C++](https://github.com/Gor55555/Problems-Solutions/blob/main/NeetCode/TwoPointers/ValidPalindrome/ValidPalindrome/main.cpp) |
-| Medium     | [Two Sum II Input Array Is Sorted](https://neetcode.io/problems/two-integer-sum-ii) | [C++]() |
+| Medium     | [Two Sum II Input Array Is Sorted](https://neetcode.io/problems/two-integer-sum-ii) | [C++](https://github.com/Gor55555/Problems-Solutions/blob/main/NeetCode/TwoPointers/TwoSumIIInputArrayIsSorted/TwoSumIIInputArrayIsSorted/main.cpp) |
 | medium     | [3Sum ](https://neetcode.io/problems/three-integer-sum)                             | [C++]() |
 | Medium     | [Container With Most Water](https://neetcode.io/problems/max-water-container)       | [C++]() |
 | Hard       | [Trapping Rain Water](https://neetcode.io/problems/trapping-rain-water)             | [C++]() |
